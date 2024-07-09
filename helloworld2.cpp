@@ -11,7 +11,8 @@ int main(){
     int size = sizeof(numbers)/sizeof(numbers[0]);
     int index;
     int myNum;
-
+    char choice;
+    do{
     std::cout<<"Enter element to search for: \n";
     std::cin>>myNum;
 
@@ -20,8 +21,13 @@ int main(){
     if(index != -1){
         std::cout<<myNum<<" is at index "<< index<<'\n'; 
     }else{
-        std::cout<<myNum<<" is not in the array"; 
+        std::cout<<myNum<<" is not in the array \n"; 
     }
+
+    std::cout<<"Do you wan to search more? Press Y or y to continue, any other key to terminate. \n";
+    std::cin>>choice;
+
+    }while(choice == 'y' || choice == 'Y');
 
     return 0;
 }
