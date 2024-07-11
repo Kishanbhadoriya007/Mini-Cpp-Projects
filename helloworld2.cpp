@@ -4,44 +4,23 @@
 #include <ctime> //#include <time.h>
 #include <cstdlib>
 #include <iomanip>
-int searchArray(int array[], int size, int element );
-
+void sort(int array[], int size );
 int main(){
-    int numbers[]= {1,2,3,4,5,6,7,8,9};
-    int size = sizeof(numbers)/sizeof(numbers[0]);
-    int index;
-    int myNum;
-    char choice;
-    do{
-    std::cout<<"Enter element to search for: \n";
-    std::cin>>myNum;
 
-    index = searchArray(numbers, size, myNum); 
+    int array[] = {10,1,9,2,8,3,7,4,6,5};
+    int size = sizeof(array)/sizeof(array[0]);
 
-    if(index != -1){
-        std::cout<<myNum<<" is at index "<< index<<'\n'; 
-    }else{
-        std::cout<<myNum<<" is not in the array \n"; 
-    }
+    sort(array, size);
 
-    std::cout<<"Do you wan to search more? Press Y or y to continue, any other key to terminate. \n";
-    std::cin>>choice;
-
-    }while(choice == 'y' || choice == 'Y');
-
+    for(int element: array){
+        std::cout << element << " ";
+    };
     return 0;
 }
 
-int searchArray(int array[], int size, int element ){
-    for(int i =0; i<size; i++){
-        if(array[i] == element ){
-            return i;
-        }
-    }
-    return -1;             //return -1 means nothing was found
-};
-
-
+void sort(int array[], int size ){
+    
+}
 
 // double getTotal(double prices[], int size);
 
