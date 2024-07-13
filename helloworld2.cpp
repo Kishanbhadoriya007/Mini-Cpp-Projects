@@ -1,3 +1,4 @@
+#include <string>
 #include <iostream>
 #include <vector>
 #include <cmath> //#include <math.h>
@@ -5,56 +6,118 @@
 #include <cstdlib>
 #include <iomanip>
 
+// Function prototypes
+int getDigit(const int number);
+int sumOddDigits(const std::string cardNumber);
+int sumEvenDigits(const std::string cardNumber);
 
-//Quiz, a small project
+int main()
+{           //6011000990139424
+    std::string cardNumber;
+    int result = 0;
 
-int main(){
-    std::string questions[] = {"1. what year was c++invented? ", "2. Who invented c++? ", "3. What is predeccessor of c++ ", "4. Is the Earth Flat? "};
+    std::cout << "Enter a credit card #: ";
+    std::cin >> cardNumber;
 
-    std::string options[][4] = {{"A. 1969", "B. 1975", "C. 1985", "D. 1989"},
-								{"A. Guido van Rossum", "B. Bjarne Stroustrup", "C. John Carmack", "D. Mark Zuckerburg"},
-								{"A. C", "B. C+", "C. C--", "D. B++"},
-								{"A. yes", "B. no", "C. sometimes", "D. what's Earth?"}};
+    result = sumEvenDigits(cardNumber) + sumOddDigits(cardNumber);
 
-    char answerKey[] ={'C', 'B', 'A', 'B'};
-
-    int size = sizeof(questions)/sizeof(questions[0]);
-    char guess;
-    int score = 0;
-
-for(int i = 0; i < size; i++){
-        std::cout<<"********************************\n";
-        std::cout<<questions[i] <<'\n';
-        std::cout<<"********************************\n";
-
-    for(int j = 0; j < sizeof(options[i])/sizeof(options[i][0]); j++ ){
-            std::cout<<options[i][j] <<'\n';
-        }
-    
-    std::cin>>guess;
-    guess = toupper(guess);
-
-    if(guess == answerKey[i]){
-        std::cout<<"CORRECT\n";
-        score++;
-    }else{
-        std::cout<<"WRONG\n";
-        std::cout<<" Answer: "<<answerKey[i]<<'\n';
+    if (result % 10 == 0) {
+        std::cout << cardNumber << " is valid" << std::endl;
     }
-
+    else {
+        std::cout << cardNumber << " is not valid" << std::endl;
     }
-
-    std::cout<<"*****************************\n";
-    std::cout<<"RESULTS\n";
-    std::cout<<"******************************\n";
-    std::cout<<"CORRECT GUESSES: "<<score<<'\n';
-    std::cout<<"No. of QUESTIONS "<<size<<'\n';
-    std::cout<<"SCORE: "<<(score/(double)size)*100<<"%\n";
 
     return 0;
 }
 
+// Function to get the sum of the digits of a number
+int getDigit(const int number) {
+    return number % 10 + (number / 10 % 10);
+}
 
+// Function to sum the odd-positioned digits from the right
+int sumOddDigits(const std::string cardNumber) {
+    int sum = 0;
+
+    for (int i = cardNumber.size() - 1; i >= 0; i -= 2) {
+        sum += cardNumber[i] - '0';
+    }
+
+    return sum;
+}
+
+// Function to sum the even-positioned digits from the right
+int sumEvenDigits(const std::string cardNumber) {
+    int sum = 0;
+
+    for (int i = cardNumber.size() - 2; i >= 0; i -= 2) {
+        sum += getDigit((cardNumber[i] - '0') * 2);
+    }
+
+    return sum;
+}
+
+
+
+
+
+//   //const parameter = it's a read only parameter
+// void printInfo(const std::string name,const int age);
+// int main(){
+
+//     std::string name = "bro";
+//     int age = 21;
+
+//     printInfo(name, age);
+//     return 0; 
+// }
+
+// void printInfo(const std::string name,const int age){
+
+//     std::cout<< name << '\n';
+//     std::cout<< age << '\n';
+
+// }
+
+
+
+
+
+// void swap(std::string &x , std::string &y);
+
+// int main(){
+
+//     std::string x = "Koolaid";
+//     std::string y = "Water";
+
+//     swap(x,y);
+//     std::cout<<"X: "<< x << '\n';
+//     std::cout<<"Y: "<< y << '\n';
+    
+// }
+
+// void swap(std::string &x , std::string & y){
+// std::string temp;
+
+//     temp = x;
+//     x = y;
+//     y = temp;
+// }
+
+// int main(){
+
+//      //Memory address
+
+//     std::string name = "bruh";
+//     int age = 21;
+//     bool student = true;
+
+//     std::cout<<&name<<'\n';
+//     std::cout<<&age<<'\n';
+//     std::cout<<&student<<'\n';
+
+// }
 
 
 
