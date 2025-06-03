@@ -6,7 +6,7 @@ int main ()
     long double num1,num2, result;
 
     int choice;
-
+    cout<<"This is a calculator"<<'\n';
     do{
     cout<<"*********Calculator************"<<std::endl;
 
