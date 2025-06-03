@@ -1,50 +1,50 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
-#include <math.h>
-
+#include <bits/stdc++.h>
+using namespace std;
 int main ()
 {
     char op;
-    double num1;
-    double num2;
-    double result;
+    long double num1,num2, result;
+
     int choice;
 
     do{
-    std::cout<<"*********Calculator************"<<std::endl;
+    cout<<"*********Calculator************"<<std::endl;
 
-    std::cout<<"Enter the arithmatic operation you want to perform (+ or - or / or *): ";
-    std::cin>>op;
+    cout<<"Enter the arithmatic operation you want to perform [+ or - or / or * or ^(exponent)]: ";
+    cin>>op;
 
-    std::cout<<"Enter Number 1: ";
-    std::cin>>num1;
+    cout<<"Enter Number 1: ";
+    cin>>num1;
 
-    std::cout<<"Enter Number 2: ";
-    std::cin>>num2;
+    cout<<"Enter Number 2: ";
+    cin>>num2;
 
     switch(op){
         case '+':
         result = num1+num2;
-        std::cout<<result<<'\n';
+        cout<<result<<'\n';
         break;
         case '-':
         result = num1-num2;
-        std::cout<<result<<'\n';
+        cout<<result<<'\n';
         break;
         case '/':
         result = num1/num2;
-        std::cout<<result<<'\n';
+        cout<<result<<'\n';
         break;
         case '*':
         result = num1*num2;
-        std::cout<<result<<'\n';
+        cout<<result<<'\n';
         break;
+        case '^':
+        result = pow(num1, num2);
+        cout<<result<<'\n';
     }
-    std::cout << "************************************************************"<<std::endl;
 
-    std::cout << "Press '1' to continue, Press any  key to terminate: ";
-    std::cin >> choice;
+    cout << "************************************************************"<<std::endl;
+
+    cout << "Press '1' to continue, Press any  key to terminate: ";
+    cin >> choice;
 
     } while (choice==1);
 
