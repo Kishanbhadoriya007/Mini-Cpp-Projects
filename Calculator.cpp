@@ -13,10 +13,10 @@ int main ()
     cout<<"Enter the arithmatic operation you want to perform [+ or - or / or * or ^(exponent)]: ";
     cin>>op;
 
-    cout<<"Enter Number 1: ";
+    cout<<"Enter Number  1: ";
     cin>>num1;
 
-    cout<<"Enter Number 2: ";
+    cout<<"Enter Number  2: ";
     cin>>num2;
 
     switch(op){
