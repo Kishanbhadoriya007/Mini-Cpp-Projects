@@ -1,0 +1,396 @@
+
+Level 1: Basic Output & Syntax
+
+These questions focus on getting your program to display information and understand basic program structure.
+
+Q-1) Hello, World!: Write a program that prints "Hello, World!" to the console.
+
+Q-2) Your Name: Write a program that prints your name to the console.
+
+Q-3)Favorite Number: Write a program that prints your favorite number.
+
+Q-4)Multiple Lines: Write a program that prints three different messages on three separate lines.
+
+Q-5)Simple Calculation Print: Write a program that prints the result of 5 + 3.
+
+Q-6)String Concatenation Print: Write a program that prints "Hello" and "User" as a single string "Hello User" (either directly in the print statement or by creating a variable first).
+
+Q-7)Print a Quote: Write a program that prints a famous quote, including the quotation marks.
+
+Q-8)Print Special Characters (Simple Pattern): Write a program that prints a pattern using asterisks, like:
+
+*
+**
+***
+
+
+Q-9)Print with Tabs: Write a program that prints two words separated by a tab character.
+
+Q-10)Print a Blank Line: Write a program that prints a message, then a blank line, then another message.
+
+Level 2: Variables & Basic Data Types
+--Learn to store different kinds of data in variables.
+
+Q-11)Store and Print Name (String Variable): Create a variable to store your name, then print the value of this variable.
+
+Q-12)Store and Print Age (Integer Variable): Create a variable to store your age (as a number), then print it.
+
+Q-13)Store and Print Pi (Float Variable): Create a variable to store the value of Pi (e.g., 3.14159), then print it.
+
+Q-14)Boolean Variable: Create a variable to store a boolean value (true or false), then print it.
+
+Q-15)Change Variable Value: Create a variable, assign it a value, print it. Then, change its value and print it again.
+
+Variable Naming: Declare three variables with valid names to store a person's first name, last name, and zip code. Assign sample values and print them.
+
+Constant Value: If your language supports constants, declare a constant for the number of days in a week and print it. Otherwise, use a variable.
+
+Type Conversion (Integer to Float): Declare an integer, convert it to a float, and print both values.
+
+Type Conversion (Float to Integer): Declare a float, convert it to an integer (note potential data loss), and print both values.
+
+Level 3: Basic User Input
+
+Learn to get information from the user.
+
+Echo Input: Write a program that takes any single word as input from the user and prints that exact word back to the console.
+
+Get User's Name: Write a program that asks the user for their name and then prints "Hello, [User's Name]".
+
+Get User's Age: Write a program that asks the user for their age (as a number) and then prints "You are [User's Age] years old." (You might need to convert input to a number).
+
+Get Favorite Color: Ask the user for their favorite color and print "Your favorite color is [User's Color]".
+
+Combine Input and Predefined Text: Ask the user for their city and print "You live in the beautiful city of [User's City]!".
+
+Get Two Numbers (Input): Write a program that asks the user for two numbers (one at a time) and stores them in two different variables. (Don't do any calculations yet).
+
+Input Prompt Customization: Ask the user for a piece of information, but customize the input prompt to be very specific, e.g., "Please enter your shoe size (US Men's):". Print the input.
+
+Multiple Inputs on One Line: If your language easily supports it, try to get two pieces of information from the user in a single input prompt (e.g., "Enter your height and weight separated by a space"). Store and print them.
+
+Level 4: Arithmetic Operations
+
+Practice using mathematical operators.
+
+Add Two Predefined Numbers: Write a program that adds two predefined numbers (e.g., 10 and 25) and prints the result.
+
+Subtract Two Predefined Numbers: Write a program that subtracts one predefined number from another (e.g., 50 from 100) and prints the result.
+
+Multiply Two Predefined Numbers: Write a program that multiplies two predefined numbers (e.g., 7 and 8) and prints the result.
+
+Divide Two Predefined Numbers: Write a program that divides one predefined number by another (e.g., 100 by 4) and prints the result.
+
+Modulus Operator (Predefined): Write a program that finds the remainder of 10 divided by 3 and prints it.
+
+Order of Operations: Write a program to calculate 10 + 5 * 2. Print the result. Now calculate (10 + 5) * 2 and print that result.
+
+User Input Addition: Ask the user for two numbers, add them, and print the sum.
+
+User Input Subtraction: Ask the user for two numbers, subtract the second from the first, and print the difference.
+
+User Input Multiplication: Ask the user for two numbers, multiply them, and print the product.
+
+User Input Division: Ask the user for two numbers, divide the first by the second, and print the quotient. (Consider what happens if the user enters 0 for the second number, though error handling is not required yet).
+
+User Input Modulus: Ask the user for two numbers and print the remainder of the first number divided by the second.
+
+Area of a Rectangle (User Input): Ask the user for the length and width of a rectangle. Calculate and print its area. (Area = length * width).
+
+Perimeter of a Rectangle (User Input): Ask the user for the length and width of a rectangle. Calculate and print its perimeter. (Perimeter = 2 * (length + width)).
+
+Simple Interest (Predefined): Given principal=1000, rate=0.05 (for 5%), time=2 years, calculate simple interest. (Interest = Principal * Rate * Time). Print the interest.
+
+Temperature Conversion (C to F, Predefined): Convert a temperature from Celsius to Fahrenheit. Formula: F = (C * 9/5) + 32. Use a predefined Celsius value (e.g., 25°C) and print the Fahrenheit value.
+
+Level 5: Comparison & Logical Operators
+
+Learn to compare values and combine logical conditions.
+
+Equal Numbers: Take two numbers as input. Print true if they are equal, false otherwise.
+
+Not Equal Numbers: Take two numbers as input. Print true if they are not equal, false otherwise.
+
+Greater Than: Take two numbers as input. Print true if the first number is greater than the second, false otherwise.
+
+Less Than: Take two numbers as input. Print true if the first number is less than the second, false otherwise.
+
+Greater Than or Equal To: Take two numbers as input. Print true if the first number is greater than or equal to the second, false otherwise.
+
+Less Than or Equal To: Take two numbers as input. Print true if the first number is less than or equal to the second, false otherwise.
+
+Logical AND: Given two boolean variables, isSunny (e.g., true) and isWarm (e.g., true), print the result of isSunny AND isWarm.
+
+Logical OR: Given two boolean variables, hasCoffee (e.g., false) and hasTea (e.g., true), print the result of hasCoffee OR hasTea.
+
+Logical NOT: Given a boolean variable isRaining (e.g., false), print the result of NOT isRaining.
+
+Level 6: Conditional Statements (if-else, elif)
+
+Make decisions in your code.
+
+Adult Check: Ask the user for their age. If the age is 18 or greater, print "You are an adult."
+
+Voting Age: Ask for age. If 18 or greater, print "You can vote." Otherwise, print "You cannot vote yet."
+
+Positive, Negative, or Zero: Ask for a number. Print "Positive", "Negative", or "Zero" accordingly.
+
+Even or Odd: Ask for a number. If it's even, print "Even." Else, print "Odd." (Hint: use the modulus operator %).
+
+Pass or Fail: Ask for a score (0-100). If the score is 50 or more, print "Pass." Else, print "Fail."
+
+Number Comparison (Larger/Equal): Ask for two numbers. Print which number is larger, or if they are equal.
+
+Smallest of Three Numbers: Ask for three numbers and print the smallest among them.
+
+Largest of Three Numbers: Ask for three numbers and print the largest among them.
+
+Weekend or Weekday: Ask for a day number (1 for Monday, ..., 7 for Sunday). If it's 6 or 7, print "Weekend!" Else, print "Weekday."
+
+Grade Calculator: Ask for a score (0-100).
+
+If 90-100, print "A".
+
+If 80-89, print "B".
+
+If 70-79, print "C".
+
+If 60-69, print "D".
+
+Else, print "F".
+
+Login Mock: Ask for a username. If the username is "admin", print "Welcome, Admin!". Else, print "Hello, Guest!".
+
+Password Mock: Ask for a password. If it's "secret123", print "Access granted." Else, print "Access denied."
+
+Combined Login Check: Ask for a username and password. If username is "admin" AND password is "password123", print "Login successful", else "Invalid credentials."
+
+Discount: Ask for purchase amount. If amount > $100, give a 10% discount. Print the final amount.
+
+Temperature Advice: Ask for temperature.
+
+If > 30°C, print "It's hot! Stay hydrated."
+
+If 15-30°C, print "Pleasant weather."
+
+If < 15°C, print "It's cold! Wear a jacket."
+
+Vowel or Consonant (Simple): Ask for a single lowercase character. If it's 'a', 'e', 'i', 'o', or 'u', print "Vowel". Else, print "Consonant". (Assume lowercase input for simplicity).
+
+Triangle Type (by sides): Ask for three side lengths. If all are equal, print "Equilateral". If two are equal, print "Isosceles". Else, print "Scalene". (Assume valid triangle inputs).
+
+Leap Year (Simplified): Ask for a year. If it's divisible by 4, print "Potentially a leap year." Else, print "Not a leap year." (A full leap year check is more complex).
+
+Number Divisibility (3 AND 5): Ask for a number. Check if it's divisible by both 3 AND 5. Print an appropriate message.
+
+Movie Ticket Price: Ask for age.
+
+If age < 5, ticket is free.
+
+If age 5-12, ticket is $5.
+
+If age > 12, ticket is $10.
+Print the ticket price.
+
+Combined Comparison (Age Range): Ask the user for their age. Print true if their age is greater than 18 AND less than 65, false otherwise.
+
+Nested If (Driving): Ask for age. If age > 18, then ask if they have a driver's license (yes/no). If yes, print "You can drive." Else print "You need a license." If age <= 18, print "Too young to drive."
+
+Level 7: Loops (for, while)
+
+Repeat actions without rewriting code.
+
+Print Numbers 1 to 10 (For Loop): Use a for loop to print numbers from 1 to 10.
+
+Print Numbers 1 to 10 (While Loop): Use a while loop to print numbers from 1 to 10.
+
+Print "Hello" 3 Times: Use a loop to print "Hello" three times.
+
+Countdown from 5 to 1: Use a loop to print numbers from 5 down to 1.
+
+User-defined Repetitions: Ask the user for a number N. Then, print "Looping..." N times.
+
+Even Numbers up to 20: Use a loop to print all even numbers from 1 up to 20 (i.e., 2, 4, ..., 20).
+
+Odd Numbers up to 19: Use a loop to print all odd numbers from 1 up to 19 (i.e., 1, 3, ..., 19).
+
+Sum up to N: Ask the user for a number N. Calculate the sum of all numbers from 1 to N and print it.
+
+User-defined Multiplication Table: Ask the user for a number. Print its multiplication table up to 10. (e.g., 5 * 1 = 5, ..., 5 * 10 = 50).
+
+Factorial: Calculate the factorial of a number (e.g., 5! = 5*4*3*2*1). Ask the user for a non-negative integer and print its factorial.
+
+Count Down with Message: Count down from 10 to 1, then print "Liftoff!".
+
+Loop with a Step (0 to 20, by 2): Print numbers from 0 to 20, but only every second number (0, 2, 4, ..., 20).
+
+Sum of Even Numbers up to N: Ask for N. Sum all even numbers from 1 to N.
+
+Basic Data Validation - Positive Integer Input: Write a loop that repeatedly asks the user for a positive integer until valid input (number > 0) is received.
+
+Count Digits in a Number: Ask the user for an integer and count how many digits it has.
+
+Reverse a Number: Ask the user for an integer and print its digits in reverse order (e.g., 123 -> 321).
+
+Sum of Digits: Ask the user for an integer and calculate the sum of its digits.
+
+Fibonacci Sequence (first N terms): Ask for a number N and print the first N terms of the Fibonacci sequence (0, 1, 1, 2, 3, ...).
+
+Prime Number Check: Ask the user for a number and determine if it's a prime number.
+
+Print Primes up to N: Ask for a number N and print all prime numbers up to N.
+
+Level 8: Basic String Manipulation
+
+Work with text data.
+
+String Length: Ask the user for a word and print its length (number of characters).
+
+String Concatenation (First/Last Name): Ask the user for their first name and last name separately. Create a full name by concatenating them with a space in between and print it.
+
+Uppercase String: Ask the user for a word. Print the word in all uppercase letters.
+
+Lowercase String: Ask the user for a word (possibly with mixed case). Print the word in all lowercase letters.
+
+Print Characters of a String (Loop): Ask the user for a word. Use a loop to print each character of the word on a new line.
+
+Reverse a String (using loop): Ask for a string. Create a new string that is the reverse of the input string by iterating through the input string and building the new string character by character. Print the reversed string.
+
+Access First Character: Ask for a string and print its first character.
+
+Access Last Character: Ask for a string and print its last character.
+
+Substring Check: Ask for two strings. Check if the second string is a substring of the first.
+
+Replace Character: Ask for a string, a character to replace, and a new character. Replace all occurrences and print the new string.
+
+Remove Spaces: Ask for a string and remove all spaces from it. Print the result.
+
+Count Specific Character: Ask for a string and a character. Count how many times the character appears in the string.
+
+Check Palindrome (Simple Word): Ask for a word. Check if it reads the same forwards and backwards (e.g., "madam").
+
+Check if String is Empty: Ask for a string and print if it's empty or not.
+
+Strip Leading/Trailing Spaces: Ask for a string with leading/trailing spaces and print it with those spaces removed.
+
+Capitalize First Letter: Ask for a string and capitalize only its first letter.
+
+Counting Vowels in a String: Ask for a word and count how many vowels (a, e, i, o, u, case-insensitive) it contains.
+
+Count Words in a Sentence: Ask for a sentence and count how many words are in it (assume words are separated by single spaces).
+
+Count Uppercase and Lowercase Characters: Ask for a string and count how many uppercase and lowercase letters it contains.
+
+Level 9: Functions/Methods
+
+Create reusable blocks of code.
+
+Simple Greet Function: Define a function called greet that prints "Hello there!". Call this function.
+
+Personalized Greet Function: Define a function greet_user(name) that takes a name as an argument and prints "Hello, [name]!". Ask the user for their name and then call this function with their name.
+
+Add Function: Define a function add_numbers(num1, num2) that takes two numbers as arguments and returns their sum. Ask the user for two numbers, call the function, and print the returned result.
+
+Area Function (Rectangle): Define a function calculate_rectangle_area(length, width) that returns the area. Ask for length and width, call the function, and print the result.
+
+isEven Function: Define a function is_even(number) that takes a number and returns true if it's even, false otherwise. Ask the user for a number, call this function, and print a message like "[Number] is even: [True/False]".
+
+Simple Menu Function: Create a function display_menu() that prints a few options like:
+1. View Greeting 2. View Joke 3. Exit
+Call this function. (No need to handle input for the menu yet, just display it).
+
+Function for Factorial: Encapsulate the factorial logic (from Level 7) into a function calculate_factorial(n) that takes an integer n and returns its factorial.
+
+Function to Find Maximum (two numbers): Write a function find_max(num1, num2) that takes two numbers and returns the larger of the two.
+
+Function to Check Leap Year (Improved): Write a function is_leap_year(year) that takes a year and returns True if it's a leap year (considering divisibility by 4, not by 100 unless also by 400) and False otherwise.
+
+Function to Convert Celsius to Fahrenheit: Write a function celsius_to_fahrenheit(celsius) that takes a Celsius temperature and returns the equivalent Fahrenheit temperature.
+
+Function for Simple Interest: Write a function calculate_simple_interest(principal, rate, time) that takes principal, annual rate (as a decimal, e.g., 0.05 for 5%), and time (in years) and returns the simple interest.
+
+Level 10: Basic Data Structures - Lists/Arrays
+
+Work with collections of data.
+
+Create and Print a List/Array: Create a list (or array, depending on your language) containing 5 integers and print the entire list.
+
+Access Element by Index: Create a list/array and print the element at a specific index (e.g., index 2).
+
+Modify Element by Index: Create a list/array, change the value of an element at a specific index, and print the updated list.
+
+Iterate and Print Elements (List/Array): Use a loop to iterate through a list/array of numbers and print each element on a new line.
+
+Sum of List Elements: Create a list/array of numbers and calculate their sum.
+
+Average of List Elements: Create a list/array of numbers and calculate their average.
+
+Find Maximum in List: Create a list/array of numbers and find the largest number in it.
+
+Find Minimum in List: Create a list/array of numbers and find the smallest number in it.
+
+Check if Element Exists in List: Create a list/array and ask the user for a number. Check if that number exists in the list and print an appropriate message.
+
+Count Occurrences of Element in List: Create a list/array (it can have duplicate elements) and ask the user for a number. Count how many times that number appears in the list.
+
+Append Element to List: Create an empty list/array. Ask the user for 3 numbers (one at a time) and add each number to the end of the list. Print the final list.
+
+Remove Element from List (by value): Create a list with some elements. Ask the user for a number to remove. Remove the first occurrence of that number from the list. Print the list.
+
+Remove Element from List (by index): Create a list. Ask the user for an index. Remove the element at that index. Print the list.
+
+Sort a List (Ascending): Create a list of unsorted numbers and sort it in ascending order. Print the sorted list. (Use built-in sort functionality if available).
+
+Sort a List (Descending): Create a list of unsorted numbers and sort it in descending order. Print the sorted list. (Use built-in sort functionality if available).
+
+Level 11: Simple Applications & Combining Concepts
+
+Apply what you've learned to build small programs and solve problems.
+
+Simple Calculator (User Choice): Ask the user for two numbers. Then ask the user to type "add", "subtract", "multiply", or "divide". Perform the chosen operation on the two numbers and print the result.
+
+Guess the Number Game (Basic with hints): Generate a secret number (e.g., between 1 and 100). Let the user guess the number. After each guess, tell them if their guess is too high, too low, or correct. Keep the game going until they guess correctly.
+
+Guess the Number Game (Enhanced - Limited Guesses): Modify the previous guessing game to give the user a limited number of guesses (e.g., 5 guesses). If they don't guess correctly within the limit, the game ends.
+
+Print Pattern - Square of Asterisks: Ask the user for a number N. Print an NxN square using asterisks (*). For example, if N=4:
+**** **** **** ****
+
+Print Pattern - Right-Angled Triangle of Asterisks: Ask the user for a number N. Print a right-angled triangle of asterisks with N rows. For example, if N=4:
+* ** *** ****
+
+Print Pattern - Inverted Right-Angled Triangle: Ask the user for a number N. Print an inverted right-angled triangle of asterisks with N rows. For example, if N=4:
+**** *** ** *
+
+Celsius to Fahrenheit Converter (Loop): Create a program that allows the user to convert temperatures from Celsius to Fahrenheit repeatedly. The program should ask for a Celsius temperature, print the Fahrenheit equivalent, and then ask if the user wants to perform another conversion until they enter a specific command to exit (e.g., 'q' or 'no').
+
+Password Strength Checker (Basic): Ask the user for a password. Check if it meets basic strength criteria: at least 8 characters long AND contains at least one digit. Print whether the password is "Weak" or "Meets basic criteria."
+
+Generate Random Number: Write a program that generates and prints a random integer within a specific range (e.g., 1 to 100).
+
+Rock, Paper, Scissors (Basic, Single Round vs Computer): Implement a single round of Rock, Paper, Scissors. The user chooses one, and the computer's choice is generated randomly. Determine and print the winner (User, Computer, or Tie).
+
+Count Words Starting with 'A' (Case-Insensitive): Ask the user for a sentence. Count how many words in the sentence start with the letter 'A' (ignoring case).
+
+Remove Duplicates from List (Simple): Given a list that might contain duplicate elements (e.g., ), create and print a new list that contains only the unique elements from the original list (e.g.,). The order of elements in the new list doesn't strictly matter for this basic version.
+
+Merge Two Sorted Lists: Given two lists that are already sorted in ascending order, write a program to merge them into a single new list that is also sorted in ascending order. (Try to do this without just concatenating and re-sorting the whole new list if you can, by iterating through both lists).
+
+Find Second Largest Number in List: Given a list of numbers (assume at least two distinct numbers), find and print the second largest number in the list.
+
+Check Anagrams (Basic): Ask the user for two words. Check if they are anagrams of each other (i.e., they contain the same characters with the same frequencies, just rearranged, e.g., "listen" and "silent"). Print whether they are anagrams or not. (Case-insensitivity can be a good addition).
+
+Simple To-Do List (Add/View): Create a basic command-line program that allows a user to:
+* Add a task to a list.
+* View all tasks in the list.
+(Keep it simple: use a list to store tasks, and loop to get user commands like "add [task description]" or "view").
+
+Simple Shopping Cart (Add/View Total): Create a basic program where a user can add items with prices to a shopping cart.
+* Allow adding an item name and its price.
+* Allow viewing all items in the cart.
+* Calculate and display the total cost of all items in the cart.
+
+Find All Divisors of a Number: Ask the user for an integer and print all of its positive divisors.
+
+Convert Decimal to Binary (Simple): Ask the user for a non-negative decimal integer and print its binary representation as a string. (You can use built-in functions if available, or implement the logic using division and remainders).
