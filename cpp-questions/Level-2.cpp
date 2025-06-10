@@ -1,3 +1,6 @@
+// Level 2: Variables & Basic Data Types 
+//  --Learn to store different kinds of data in variables.
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -33,6 +36,37 @@ int main(){
 // a=6;
 // cout<<a;.
 
+//16)Variable Naming: Declare three variables with valid names to store a person's first name, last name, and zip code. Assign sample values and print them.
 
+// string first_name, last_name;
+// int zip;
+// cout<<"enter your first name, last name and zip code in that order \n";
+// cin>>first_name>>last_name>>zip;
+// cout<<first_name<<'\n'<<last_name<<'\n'<<zip;
+
+// 17)Constant Value: If your language supports constants, declare a constant for the number of days in a week and print it. Otherwise, use a variable.
+
+// const int week = 7;
+// cout<<week;
+
+// 18)Type Conversion (Integer to Float): Declare an integer, convert it to a float, and print both values.
+
+// int a;
+// cout<<"Enter a\n";
+// cin>>a;
+// cout<<a<<'\n';
+// float b = a;
+// cout<<a;
+
+// 19)Type Conversion (Float to Integer): Declare a float, convert it to an integer (note potential data loss), and print both values.
+
+// float pi =3.14;
+// int r = int(pi);
+// pi = r;
+// cout<<pi;
+
+
+
+return 0;
 
 }

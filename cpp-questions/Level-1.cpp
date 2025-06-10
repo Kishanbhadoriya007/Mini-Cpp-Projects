@@ -1,3 +1,5 @@
+// Level 1: Basic Output & Syntax ---These questions focus on getting your program to display information and understand basic program structure.
+
 #include<bits/stdc++.h>
 using namespace std;
 
