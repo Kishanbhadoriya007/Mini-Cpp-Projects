@@ -216,97 +216,89 @@ Level 7: Loops (for, while) ---Repeat actions without rewriting code.
 
 89)Prime Number Check: Ask the user for a number and determine if it's a prime number.
 
-Print Primes up to N: Ask for a number N and print all prime numbers up to N.
+90)Print Primes up to N: Ask for a number N and print all prime numbers up to N.
 
-Level 8: Basic String Manipulation
+Level 8: Basic String Manipulation ---Work with text data.
 
-Work with text data.
+91)String Length: Ask the user for a word and print its length (number of characters).
 
-String Length: Ask the user for a word and print its length (number of characters).
+92)String Concatenation (First/Last Name): Ask the user for their first name and last name separately. Create a full name by concatenating them with a space in between and print it.
 
-String Concatenation (First/Last Name): Ask the user for their first name and last name separately. Create a full name by concatenating them with a space in between and print it.
+93)Uppercase String: Ask the user for a word. Print the word in all uppercase letters.
 
-Uppercase String: Ask the user for a word. Print the word in all uppercase letters.
+94)Lowercase String: Ask the user for a word (possibly with mixed case). Print the word in all lowercase letters.
 
-Lowercase String: Ask the user for a word (possibly with mixed case). Print the word in all lowercase letters.
+95)Print Characters of a String (Loop): Ask the user for a word. Use a loop to print each character of the word on a new line.
 
-Print Characters of a String (Loop): Ask the user for a word. Use a loop to print each character of the word on a new line.
+96)Reverse a String (using loop): Ask for a string. Create a new string that is the reverse of the input string by iterating through the input string and building the new string character by character. Print the reversed string.
 
-Reverse a String (using loop): Ask for a string. Create a new string that is the reverse of the input string by iterating through the input string and building the new string character by character. Print the reversed string.
+97)Access First Character: Ask for a string and print its first character.
 
-Access First Character: Ask for a string and print its first character.
+98)Access Last Character: Ask for a string and print its last character.
 
-Access Last Character: Ask for a string and print its last character.
+99)Substring Check: Ask for two strings. Check if the second string is a substring of the first.
 
-Substring Check: Ask for two strings. Check if the second string is a substring of the first.
+100)Replace Character: Ask for a string, a character to replace, and a new character. Replace all occurrences and print the new string.
 
-Replace Character: Ask for a string, a character to replace, and a new character. Replace all occurrences and print the new string.
+101)Remove Spaces: Ask for a string and remove all spaces from it. Print the result.
 
-Remove Spaces: Ask for a string and remove all spaces from it. Print the result.
+102)Count Specific Character: Ask for a string and a character. Count how many times the character appears in the string.
 
-Count Specific Character: Ask for a string and a character. Count how many times the character appears in the string.
+103)Check Palindrome (Simple Word): Ask for a word. Check if it reads the same forwards and backwards (e.g., "madam").
 
-Check Palindrome (Simple Word): Ask for a word. Check if it reads the same forwards and backwards (e.g., "madam").
+104)Check if String is Empty: Ask for a string and print if it's empty or not.
 
-Check if String is Empty: Ask for a string and print if it's empty or not.
+105)Strip Leading/Trailing Spaces: Ask for a string with leading/trailing spaces and print it with those spaces removed.
 
-Strip Leading/Trailing Spaces: Ask for a string with leading/trailing spaces and print it with those spaces removed.
+106)Capitalize First Letter: Ask for a string and capitalize only its first letter.
 
-Capitalize First Letter: Ask for a string and capitalize only its first letter.
+107)Counting Vowels in a String: Ask for a word and count how many vowels (a, e, i, o, u, case-insensitive) it contains.
 
-Counting Vowels in a String: Ask for a word and count how many vowels (a, e, i, o, u, case-insensitive) it contains.
+108)Count Words in a Sentence: Ask for a sentence and count how many words are in it (assume words are separated by single spaces).
 
-Count Words in a Sentence: Ask for a sentence and count how many words are in it (assume words are separated by single spaces).
+109)Count Uppercase and Lowercase Characters: Ask for a string and count how many uppercase and lowercase letters it contains.
 
-Count Uppercase and Lowercase Characters: Ask for a string and count how many uppercase and lowercase letters it contains.
+Level 9: Functions/Methods ---Create reusable blocks of code.
 
-Level 9: Functions/Methods
+110)Simple Greet Function: Define a function called greet that prints "Hello there!". Call this function.
 
-Create reusable blocks of code.
+111)Personalized Greet Function: Define a function greet_user(name) that takes a name as an argument and prints "Hello, [name]!". Ask the user for their name and then call this function with their name.
 
-Simple Greet Function: Define a function called greet that prints "Hello there!". Call this function.
+112)Add Function: Define a function add_numbers(num1, num2) that takes two numbers as arguments and returns their sum. Ask the user for two numbers, call the function, and print the returned result.
 
-Personalized Greet Function: Define a function greet_user(name) that takes a name as an argument and prints "Hello, [name]!". Ask the user for their name and then call this function with their name.
+113)Area Function (Rectangle): Define a function calculate_rectangle_area(length, width) that returns the area. Ask for length and width, call the function, and print the result.
 
-Add Function: Define a function add_numbers(num1, num2) that takes two numbers as arguments and returns their sum. Ask the user for two numbers, call the function, and print the returned result.
+114)isEven Function: Define a function is_even(number) that takes a number and returns true if it's even, false otherwise. Ask the user for a number, call this function, and print a message like "[Number] is even: [True/False]".
 
-Area Function (Rectangle): Define a function calculate_rectangle_area(length, width) that returns the area. Ask for length and width, call the function, and print the result.
+115)Simple Menu Function: Create a function display_menu() that prints a few options like:  1. View Greeting 2. View Joke 3. ExitCall this function. (No need to handle input for the menu yet, just display it).
 
-isEven Function: Define a function is_even(number) that takes a number and returns true if it's even, false otherwise. Ask the user for a number, call this function, and print a message like "[Number] is even: [True/False]".
+116)Function for Factorial: Encapsulate the factorial logic (from Level 7) into a function calculate_factorial(n) that takes an integer n and returns its factorial.
 
-Simple Menu Function: Create a function display_menu() that prints a few options like:
-1. View Greeting 2. View Joke 3. Exit
-Call this function. (No need to handle input for the menu yet, just display it).
+117)Function to Find Maximum (two numbers): Write a function find_max(num1, num2) that takes two numbers and returns the larger of the two.
 
-Function for Factorial: Encapsulate the factorial logic (from Level 7) into a function calculate_factorial(n) that takes an integer n and returns its factorial.
+118)Function to Check Leap Year (Improved): Write a function is_leap_year(year) that takes a year and returns True if it's a leap year (considering divisibility by 4, not by 100 unless also by 400) and False otherwise.
 
-Function to Find Maximum (two numbers): Write a function find_max(num1, num2) that takes two numbers and returns the larger of the two.
+119)Function to Convert Celsius to Fahrenheit: Write a function celsius_to_fahrenheit(celsius) that takes a Celsius temperature and returns the equivalent Fahrenheit temperature.
 
-Function to Check Leap Year (Improved): Write a function is_leap_year(year) that takes a year and returns True if it's a leap year (considering divisibility by 4, not by 100 unless also by 400) and False otherwise.
+120)Function for Simple Interest: Write a function calculate_simple_interest(principal, rate, time) that takes principal, annual rate (as a decimal, e.g., 0.05 for 5%), and time (in years) and returns the simple interest.
 
-Function to Convert Celsius to Fahrenheit: Write a function celsius_to_fahrenheit(celsius) that takes a Celsius temperature and returns the equivalent Fahrenheit temperature.
+Level 10: Basic Data Structures --- Lists/Arrays Work with collections of data.
 
-Function for Simple Interest: Write a function calculate_simple_interest(principal, rate, time) that takes principal, annual rate (as a decimal, e.g., 0.05 for 5%), and time (in years) and returns the simple interest.
+121)Create and Print a List/Array: Create a list (or array, depending on your language) containing 5 integers and print the entire list.
 
-Level 10: Basic Data Structures - Lists/Arrays
+122)Access Element by Index: Create a list/array and print the element at a specific index (e.g., index 2).
 
-Work with collections of data.
+123)Modify Element by Index: Create a list/array, change the value of an element at a specific index, and print the updated list.
 
-Create and Print a List/Array: Create a list (or array, depending on your language) containing 5 integers and print the entire list.
+124)Iterate and Print Elements (List/Array): Use a loop to iterate through a list/array of numbers and print each element on a new line.
 
-Access Element by Index: Create a list/array and print the element at a specific index (e.g., index 2).
+125)Sum of List Elements: Create a list/array of numbers and calculate their sum.
 
-Modify Element by Index: Create a list/array, change the value of an element at a specific index, and print the updated list.
+126)Average of List Elements: Create a list/array of numbers and calculate their average.
 
-Iterate and Print Elements (List/Array): Use a loop to iterate through a list/array of numbers and print each element on a new line.
+127)Find Maximum in List: Create a list/array of numbers and find the largest number in it.
 
-Sum of List Elements: Create a list/array of numbers and calculate their sum.
-
-Average of List Elements: Create a list/array of numbers and calculate their average.
-
-Find Maximum in List: Create a list/array of numbers and find the largest number in it.
-
-Find Minimum in List: Create a list/array of numbers and find the smallest number in it.
+128)Find Minimum in List: Create a list/array of numbers and find the smallest number in it.
 
 Check if Element Exists in List: Create a list/array and ask the user for a number. Check if that number exists in the list and print an appropriate message.
 
