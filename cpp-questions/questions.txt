@@ -282,85 +282,268 @@ Level 9: Functions/Methods ---Create reusable blocks of code.
 
 120)Function for Simple Interest: Write a function calculate_simple_interest(principal, rate, time) that takes principal, annual rate (as a decimal, e.g., 0.05 for 5%), and time (in years) and returns the simple interest.
 
-Level 10: Basic Data Structures --- Lists/Arrays Work with collections of data.
+Level 10: Basic Data Structures --- Lists/Arrays Work with collections of data. This level covers the creation and basic manipulation of the most fundamental data structures. 
 
-121)Create and Print a List/Array: Create a list (or array, depending on your language) containing 5 integers and print the entire list.
+Q-121) Create and Print a List/Array: Create a list (or array) containing 5 integers and print the entire list.
 
-122)Access Element by Index: Create a list/array and print the element at a specific index (e.g., index 2).
+Q-122) Access Element by Index: Create a list/array and print the element at a specific index (e.g., index 2).
 
-123)Modify Element by Index: Create a list/array, change the value of an element at a specific index, and print the updated list.
+Q-123) Modify Element by Index: Create a list/array, change the value of an element at a specific index, and print the updated list.
 
-124)Iterate and Print Elements (List/Array): Use a loop to iterate through a list/array of numbers and print each element on a new line.
+Q-124) Iterate and Print Elements (List/Array): Use a loop to iterate through a list/array of numbers and print each element on a new line.
 
-125)Sum of List Elements: Create a list/array of numbers and calculate their sum.
+Q-125) Sum of List Elements: Create a list/array of numbers and calculate their sum.
 
-126)Average of List Elements: Create a list/array of numbers and calculate their average.
+Q-126) Average of List Elements: Create a list/array of numbers and calculate their average.
 
-127)Find Maximum in List: Create a list/array of numbers and find the largest number in it.
+Q-127) Find Maximum in List: Create a list/array of numbers and find the largest number in it.
 
-128)Find Minimum in List: Create a list/array of numbers and find the smallest number in it.
+Q-128) Find Minimum in List: Create a list/array of numbers and find the smallest number in it. (This is your current question, placed correctly)
 
-Check if Element Exists in List: Create a list/array and ask the user for a number. Check if that number exists in the list and print an appropriate message.
+Q-129) Check if Element Exists in List: Create a list/array and ask the user for a number. Check if that number exists in the list and print an appropriate message.
 
-Count Occurrences of Element in List: Create a list/array (it can have duplicate elements) and ask the user for a number. Count how many times that number appears in the list.
+Q-130) Count Occurrences of Element in List: Create a list/array (it can have duplicate elements) and ask the user for a number. Count how many times that number appears in the list.
 
-Append Element to List: Create an empty list/array. Ask the user for 3 numbers (one at a time) and add each number to the end of the list. Print the final list.
+Q-131) Append Element to List: Create an empty list/array. Ask the user for 3 numbers (one at a time) and add each number to the end of the list. Print the final list.
 
-Remove Element from List (by value): Create a list with some elements. Ask the user for a number to remove. Remove the first occurrence of that number from the list. Print the list.
+Q-132) Remove Element from List (by value): Create a list with some elements. Ask the user for a number to remove. Remove the first occurrence of that number from the list. Print the list.
 
-Remove Element from List (by index): Create a list. Ask the user for an index. Remove the element at that index. Print the list.
+Q-133) Remove Element from List (by index): Create a list. Ask the user for an index. Remove the element at that index. Print the list.
 
-Sort a List (Ascending): Create a list of unsorted numbers and sort it in ascending order. Print the sorted list. (Use built-in sort functionality if available).
+Q-134) Sort a List (Ascending): Create a list of unsorted numbers and sort it in ascending order using built-in sort functionality.
 
-Sort a List (Descending): Create a list of unsorted numbers and sort it in descending order. Print the sorted list. (Use built-in sort functionality if available).
+Q-135) Sort a List (Descending): Create a list of unsorted numbers and sort it in descending order.
 
-Level 11: Simple Applications & Combining Concepts
+Level 11: Pointers & Core C++ Features (The First Bridge)
 
-Apply what you've learned to build small programs and solve problems.
+This is the new level designed to build a strong C++ foundation before diving deeper into DSA.
 
-Simple Calculator (User Choice): Ask the user for two numbers. Then ask the user to type "add", "subtract", "multiply", or "divide". Perform the chosen operation on the two numbers and print the result.
+Q-136) Example: Pointers
 
-Guess the Number Game (Basic with hints): Generate a secret number (e.g., between 1 and 100). Let the user guess the number. After each guess, tell them if their guess is too high, too low, or correct. Keep the game going until they guess correctly.
+Question: Declare an integer variable, assign it a value. Then, declare a pointer to that integer and print both the value of the variable (using the pointer) and its memory address.
 
-Guess the Number Game (Enhanced - Limited Guesses): Modify the previous guessing game to give the user a limited number of guesses (e.g., 5 guesses). If they don't guess correctly within the limit, the game ends.
+Q-137) Declare a pointer and initialize it to nullptr. Write an if condition to check if the pointer is null before trying to dereference it.
 
-Print Pattern - Square of Asterisks: Ask the user for a number N. Print an NxN square using asterisks (*). For example, if N=4:
-**** **** **** ****
+Q-138) Create an integer array. Declare a pointer that points to the first element. Use a loop and pointer arithmetic (ptr++) to print all elements.
 
-Print Pattern - Right-Angled Triangle of Asterisks: Ask the user for a number N. Print a right-angled triangle of asterisks with N rows. For example, if N=4:
-* ** *** ****
+Q-139) Write a function increment(int* value) that takes a pointer to an integer and increments the integer's value by one. Call this function from main.
 
-Print Pattern - Inverted Right-Angled Triangle: Ask the user for a number N. Print an inverted right-angled triangle of asterisks with N rows. For example, if N=4:
-**** *** ** *
+Q-140) Use new to dynamically allocate an integer. Assign it a value, print it, and then use delete to free the memory.
 
-Celsius to Fahrenheit Converter (Loop): Create a program that allows the user to convert temperatures from Celsius to Fahrenheit repeatedly. The program should ask for a Celsius temperature, print the Fahrenheit equivalent, and then ask if the user wants to perform another conversion until they enter a specific command to exit (e.g., 'q' or 'no').
+Q-141) Ask for a size N. Dynamically allocate an array of N integers using new int[N]. Fill it with values and print them. Remember to free the memory with delete[].
 
-Password Strength Checker (Basic): Ask the user for a password. Check if it meets basic strength criteria: at least 8 characters long AND contains at least one digit. Print whether the password is "Weak" or "Meets basic criteria."
+Q-142) (Scope) Declare a global integer variable. In main, declare a local integer with the same name. Print both variables.
 
-Generate Random Number: Write a program that generates and prints a random integer within a specific range (e.g., 1 to 100).
+Q-143) (Scope) Write a function with a static local variable to count how many times it has been called.
 
-Rock, Paper, Scissors (Basic, Single Round vs Computer): Implement a single round of Rock, Paper, Scissors. The user chooses one, and the computer's choice is generated randomly. Determine and print the winner (User, Computer, or Tie).
+Q-144) (Overloading Example) Write two printValue functions: one for an int and one for a double.
 
-Count Words Starting with 'A' (Case-Insensitive): Ask the user for a sentence. Count how many words in the sentence start with the letter 'A' (ignoring case).
+Q-145) (Overloading) Create an overloaded function sum that takes two integers in one version and three integers in another.
 
-Remove Duplicates from List (Simple): Given a list that might contain duplicate elements (e.g., ), create and print a new list that contains only the unique elements from the original list (e.g.,). The order of elements in the new list doesn't strictly matter for this basic version.
+Level 12: Introduction to Recursion (The Second Bridge)
 
-Merge Two Sorted Lists: Given two lists that are already sorted in ascending order, write a program to merge them into a single new list that is also sorted in ascending order. (Try to do this without just concatenating and re-sorting the whole new list if you can, by iterating through both lists).
+Q-146) Example: Countdown
 
-Find Second Largest Number in List: Given a list of numbers (assume at least two distinct numbers), find and print the second largest number in the list.
+Question: Write a recursive function to print numbers from N down to 1.
 
-Check Anagrams (Basic): Ask the user for two words. Check if they are anagrams of each other (i.e., they contain the same characters with the same frequencies, just rearranged, e.g., "listen" and "silent"). Print whether they are anagrams or not. (Case-insensitivity can be a good addition).
+Q-147) Write a recursive function to print numbers from 1 up to N.
 
-Simple To-Do List (Add/View): Create a basic command-line program that allows a user to:
-* Add a task to a list.
-* View all tasks in the list.
-(Keep it simple: use a list to store tasks, and loop to get user commands like "add [task description]" or "view").
+Q-148) Recursively calculate the sum of all integers from 1 to N.
 
-Simple Shopping Cart (Add/View Total): Create a basic program where a user can add items with prices to a shopping cart.
-* Allow adding an item name and its price.
-* Allow viewing all items in the cart.
-* Calculate and display the total cost of all items in the cart.
+Q-149) Recursively calculate the factorial of a number N.
 
-Find All Divisors of a Number: Ask the user for an integer and print all of its positive divisors.
+Q-150) Recursively find the Nth Fibonacci number.
 
-Convert Decimal to Binary (Simple): Ask the user for a non-negative decimal integer and print its binary representation as a string. (You can use built-in functions if available, or implement the logic using division and remainders).
+Q-151) Write a recursive function power(base, exp) to calculate base to the power of exp.
+
+Q-152) Recursively print all elements of an array.
+
+Q-153) Recursively sum all elements in an array.
+
+Q-154) Recursively reverse a std::string.
+
+Q-155) Recursively check if a string is a palindrome.
+
+Q-156) Recursively count the digits in an integer.
+
+Q-157) Recursively sum the digits of an integer.
+
+Q-158) Recursively find the GCD of two numbers.
+
+Q-159) Recursively check if an array is sorted.
+
+Level 13: Advanced STL Containers
+
+Q-160) Example: std::set
+
+Question: Create a std::set of integers. Insert 10, 20, 5, 10. Print the elements to see the automatic sorting and duplicate handling.
+
+Q-161) Use set::find() to check if a number exists in a set.
+
+Q-162) What is the main difference between std::set and std::unordered_set?
+
+Q-163) Create a std::set that stores integers in descending order.
+
+Q-164) Example: std::map
+
+Question: Use a std::map to store the count of different fruits (string -> int). Add a few fruits and print the map.
+
+Q-165) Use map::find() to check if a key exists in a map.
+
+Q-166) Given a vector, use a map to count the frequency of each number.
+
+Q-167) What is the main difference between std::map and std::unordered_map?
+
+Q-168) Example: std::stack (LIFO)
+
+Question: Use a std::stack to reverse a string.
+
+Q-169) Use a stack to check if a string of parentheses (), {}, [] is balanced.
+
+Q-170) Example: std::queue (FIFO)
+
+Question: Demonstrate a std::queue by adding (push) three numbers and then removing (pop) them, printing each one as it's removed.
+
+Q-171) Example: std::priority_queue
+
+Question: Create a priority queue of integers and insert numbers in a random order. Print them as you pop them to see the default (max-heap) ordering.
+
+Q-172) How would you declare a priority_queue that functions as a min-heap?
+
+Q-173) Example: std::pair and std::tuple
+
+Question: Create a std::pair to store a student's name (string) and grade (int). Print both elements.
+
+Level 14: Basic Sorting Algorithms & Modern C++
+
+Q-174) Bubble Sort: Implement Bubble Sort to sort a vector of integers.
+
+Q-175) Selection Sort: Implement Selection Sort for a vector.
+
+Q-176) Insertion Sort: Implement Insertion Sort for a vector.
+
+Q-177) Manually trace Bubble Sort on the array [5, 1, 4, 2, 8].
+
+Q-178) Manually trace Insertion Sort on the array [12, 11, 13, 5, 6].
+
+Q-179) Example: Lambda Function
+
+Question: Declare a lambda function that takes two integers and returns their sum. Use auto to store it in a variable and then call it.
+
+Q-180) Use a lambda expression with std::sort to sort a vector of strings based on their length instead of alphabetical order.
+
+Q-181) Use a lambda to find the first even number in a vector using std::find_if.
+
+Q-182) Write a lambda that captures a local variable by reference ([&]) and modifies it.
+
+Q-183) Use the auto keyword to simplify iterating through a std::map.
+
+Level 15: Simple Applications & Combining Concepts
+
+This level uses your remaining unsolved questions to apply everything you've learned so far.
+
+Q-184) Simple Calculator (User Choice): Ask the user for two numbers and an operation ("add", "subtract", "multiply", or "divide"). Perform the chosen operation and print the result.
+
+Q-185) Generate Random Number: Write a program that generates and prints a random integer within a specific range (e.g., 1 to 100).
+
+Q-186) Guess the Number Game (Basic with hints): Generate a secret number. Let the user guess, and after each guess, tell them if their guess is too high, too low, or correct.
+
+Q-187) Guess the Number Game (Enhanced - Limited Guesses): Modify the previous game to give the user a limited number of guesses (e.g., 5).
+
+Q-188) Rock, Paper, Scissors (Basic, Single Round vs Computer): Implement a single round of Rock, Paper, Scissors.
+
+Q-189) Print Pattern - Square of Asterisks: Ask the user for a number N. Print an NxN square using asterisks (*).
+
+Q-190) Print Pattern - Right-Angled Triangle of Asterisks: Ask for N. Print a right-angled triangle.
+
+Q-191) Print Pattern - Inverted Right-Angled Triangle: Ask for N. Print an inverted right-angled triangle.
+
+Q-192) Celsius to Fahrenheit Converter (Loop): Allow the user to convert temperatures repeatedly until they enter 'q' to quit.
+
+Q-193) Password Strength Checker (Basic): Check if a password is at least 8 characters long AND contains at least one digit.
+
+Q-194) Count Words Starting with 'A' (Case-Insensitive): Ask for a sentence and count how many words start with 'A'.
+
+Q-195) Find All Divisors of a Number: Ask for an integer and print all of its positive divisors.
+
+Q-196) Simple To-Do List (Add/View): Create a basic command-line program that allows a user to add a task to a list and view all tasks.
+
+Q-197) Simple Shopping Cart (Add/View Total): Create a program where a user can add items with prices to a cart and view the total cost.
+
+Q-198) Find Second Largest Number in List: Given a list of numbers, find and print the second largest number.
+
+Q-199) Remove Duplicates from List (Simple): Given a list with duplicates, create a new list with only the unique elements.
+
+Q-200) Check Anagrams (Basic): Ask for two words and check if they are anagrams.
+
+Q-201) Merge Two Sorted Lists: Given two sorted lists, merge them into a single new sorted list.
+
+Q-202) Convert Decimal to Binary (Simple): Ask for a non-negative decimal integer and print its binary representation.
+
+Q-203) Simple Bank Account: Create a program with deposit, withdraw, and getBalance functions to manage a single balance variable.
+
+Q-204) Character Frequency Counter: Ask for a string and use a map to count the frequency of each character.
+
+Q-205) Find Common Elements: Given two vectors, print the elements that exist in both. (Hint: std::set is very useful).
+
+Q-206) Rotate Vector: Write a function to rotate the elements of a vector to the left by one position.
+
+Q-207) Sum of Even/Odd Numbers in a List: Calculate the sum of all even numbers and the sum of all odd numbers in a list separately.
+
+Q-208) Capitalize Words: Ask for a sentence and print it with the first letter of each word capitalized.
+
+Q-209) Palindrome Number Check: Check if an integer is a palindrome (e.g., 121 reads the same forwards and backwards).
+
+Q-210) FizzBuzz: Print numbers from 1 to 100. For multiples of 3, print "Fizz". For multiples of 5, print "Buzz". For multiples of both, print "FizzBuzz".
+
+Q-211) Grade Average: Ask the user to enter 5 grades into a vector and calculate the average.
+
+Q-212) Simple Pig Latin: Ask for a word. Move the first letter to the end and add "ay". (e.g., "hello" -> "ellohay").
+
+Q-213) Find the Missing Number: Given a vector containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the sequence.
+
+Q-214) Basic Tic-Tac-Toe Board: Create and print a 3x3 2D array/vector to represent a Tic-Tac-Toe board.
+
+Q-215) Matrix Addition: Given two 2x2 matrices (2D vectors), calculate and print their sum.
+
+Q-216) Flatten a 2D Vector: Convert a 2D vector into a 1D vector.
+
+Q-217) Simple File I/O (Write): Write a short string to a file named output.txt.
+
+Q-218) Simple File I/O (Read): Read the content from output.txt and print it to the console.
+
+Q-219) Find the longest word: Ask the user for a sentence and find the longest word in it.
+
+Q-220) String Compression: Write a function that performs basic string compression. For example, "aabcccccaaa" would become "a2b1c5a3".
+
+Q-221) Check for balanced brackets in an expression: This is a more complex version of the parentheses checker, often involving mathematical operators inside.
+
+Q-222) Implement a simple Caesar cipher: Shift every letter in a string by a fixed number of places (e.g., 3).
+
+Q-223) Calculate the running median: As numbers are entered one by one, calculate and print the median of the list so far. (Hint: two priority queues can be very helpful).
+
+Q-224) Find all prime numbers up to N: Implement the Sieve of Eratosthenes algorithm.
+
+Q-225) Validate an IP Address: Given a string, determine if it's a valid IPv4 address.
+
+Q-226) Find the intersection of two arrays: Given two arrays, compute their intersection (elements common to both).
+
+Q-227) Maximum Subarray Sum (Kadane's Algorithm): Find the contiguous subarray within a one-dimensional array of numbers that has the largest sum.
+
+Q-228) Traverse a 2D array in spiral order: Given a matrix, print all of its elements in a spiral pattern.
+
+Q-229) Longest Palindromic Substring: Given a string, find the longest substring which is a palindrome.
+
+Q-230) Group Anagrams: Given an array of strings, group the anagrams together.
+
+Q-231) Product of Array Except Self: Given an array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+
+Q-232) Container With Most Water: Given n non-negative integers representing vertical lines, find two lines that, together with the x-axis, form a container that holds the most water.
+
+Q-233) Search in a Rotated Sorted Array: A sorted array is rotated at some unknown pivot. Search for a target value.
+
+Q-234) Coin Change (Fewest Coins): Given a set of coin denominations and a total amount, find the minimum number of coins required to make up that amount.
+
+Q-235) Generate Permutations: Given a collection of distinct integers, return all possible permutations.
+
+Q-236) Word Break Problem: Given a string and a dictionary of words, determine if the string can be segmented into a space-separated sequence of one or more dictionary words.
