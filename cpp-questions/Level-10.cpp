@@ -198,4 +198,43 @@ using namespace std;
 
 // Q-133) Remove Element from List (by index): Create a list. Ask the user for an index. Remove the element at that index. Print the list.
 
-list<long> n;
+// int main(){
+// list<long> n = {1,2,3,4,5,6,7,8,9,0};
+// cout<<"here's the list\n";
+// for(long i :n){
+//     cout<<i<<" ";
+// }
+// long a;
+// cout<<"\nEnter the index of element you wanna remove"<<endl;
+// cin>>a;
+// list<long>::iterator it = n.begin();
+// advance(it, a);
+// // n.remove(a);
+// n.erase(it);
+// cout<<"Here's the new updated list"<<endl;
+// for(long j: n){
+//     cout<<j<<" ";
+// }
+// }
+
+// Q-134) Sort a List (Ascending): Create a list of unsorted numbers and sort it in ascending order using built-in sort functionality.
+
+// int main(){
+//     list<long> n={23,89,45,34,56,12,67,78,90,0};
+//     n.sort();
+//     for(long i : n){
+//         cout<<i<<" ";
+//     }
+//     return 0;
+// }
+
+// Q-135) Sort a List (Descending): Create a list of unsorted numbers and sort it in descending order.
+
+// int main(){
+// list<long> n = {1,20,3,4,5,6,8,7,9,0};
+// n.sort();
+// n.reverse();
+// for(long i: n){     //this doesn't equate to for(int i=0; i<n.size();i++)
+//     cout<<i<<" ";
+// } 
+// return 0;}
