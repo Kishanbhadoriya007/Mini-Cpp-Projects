@@ -342,9 +342,7 @@ Q-145) (Overloading) Create an overloaded function sum that takes two integers i
 
 Level 12: Introduction to Recursion (The Second Bridge)
 
-Q-146) Example: Countdown
-
-Question: Write a recursive function to print numbers from N down to 1.
+Q-146) Example: Countdown- Question: Write a recursive function to print numbers from N down to 1.
 
 Q-147) Write a recursive function to print numbers from 1 up to N.
 
