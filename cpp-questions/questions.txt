@@ -10,7 +10,7 @@ Q-2) Your Name: Write a program that prints your name to the console.
 
 Q-3)Favorite Number: Write a program that prints your favorite number.
 
-Q-4)Multiple Lines: Write a program that prints three different messages on three separate lines.
+Q-4)Multiple Lines: Write a program that prints three different messages on three separate lines. 
 
 Q-5)Simple Calculation Print: Write a program that prints the result of 5 + 3.
 
@@ -369,179 +369,177 @@ Q-157) Recursively sum the digits of an integer.
 Q-158) Recursively find the GCD of two numbers.
 
 Q-159) Recursively check if an array is sorted.
-
-Level 13: Advanced STL Containers
-
-Q-160) Example: std::set
-
-Question: Create a std::set of integers. Insert 10, 20, 5, 10. Print the elements to see the automatic sorting and duplicate handling.
-
-Q-161) Use set::find() to check if a number exists in a set.
-
-Q-162) What is the main difference between std::set and std::unordered_set?
-
-Q-163) Create a std::set that stores integers in descending order.
-
-Q-164) Example: std::map
-
-Question: Use a std::map to store the count of different fruits (string -> int). Add a few fruits and print the map.
-
-Q-165) Use map::find() to check if a key exists in a map.
-
-Q-166) Given a vector, use a map to count the frequency of each number.
-
-Q-167) What is the main difference between std::map and std::unordered_map?
-
-Q-168) Example: std::stack (LIFO)
-
-Question: Use a std::stack to reverse a string.
-
-Q-169) Use a stack to check if a string of parentheses (), {}, [] is balanced.
-
-Q-170) Example: std::queue (FIFO)
-
-Question: Demonstrate a std::queue by adding (push) three numbers and then removing (pop) them, printing each one as it's removed.
-
-Q-171) Example: std::priority_queue
-
-Question: Create a priority queue of integers and insert numbers in a random order. Print them as you pop them to see the default (max-heap) ordering.
-
-Q-172) How would you declare a priority_queue that functions as a min-heap?
-
-Q-173) Example: std::pair and std::tuple
-
-Question: Create a std::pair to store a student's name (string) and grade (int). Print both elements.
-
-Level 14: Basic Sorting Algorithms & Modern C++
-
-Q-174) Bubble Sort: Implement Bubble Sort to sort a vector of integers.
-
-Q-175) Selection Sort: Implement Selection Sort for a vector.
-
-Q-176) Insertion Sort: Implement Insertion Sort for a vector.
-
-Q-177) Manually trace Bubble Sort on the array [5, 1, 4, 2, 8].
-
-Q-178) Manually trace Insertion Sort on the array [12, 11, 13, 5, 6].
-
-Q-179) Example: Lambda Function
-
-Question: Declare a lambda function that takes two integers and returns their sum. Use auto to store it in a variable and then call it.
-
-Q-180) Use a lambda expression with std::sort to sort a vector of strings based on their length instead of alphabetical order.
-
-Q-181) Use a lambda to find the first even number in a vector using std::find_if.
-
-Q-182) Write a lambda that captures a local variable by reference ([&]) and modifies it.
-
-Q-183) Use the auto keyword to simplify iterating through a std::map.
-
-Level 15: Simple Applications & Combining Concepts
-
-This level uses your remaining unsolved questions to apply everything you've learned so far.
-
-Q-184) Simple Calculator (User Choice): Ask the user for two numbers and an operation ("add", "subtract", "multiply", or "divide"). Perform the chosen operation and print the result.
-
-Q-185) Generate Random Number: Write a program that generates and prints a random integer within a specific range (e.g., 1 to 100).
-
-Q-186) Guess the Number Game (Basic with hints): Generate a secret number. Let the user guess, and after each guess, tell them if their guess is too high, too low, or correct.
-
-Q-187) Guess the Number Game (Enhanced - Limited Guesses): Modify the previous game to give the user a limited number of guesses (e.g., 5).
-
-Q-188) Rock, Paper, Scissors (Basic, Single Round vs Computer): Implement a single round of Rock, Paper, Scissors.
-
-Q-189) Print Pattern - Square of Asterisks: Ask the user for a number N. Print an NxN square using asterisks (*).
-
-Q-190) Print Pattern - Right-Angled Triangle of Asterisks: Ask for N. Print a right-angled triangle.
-
-Q-191) Print Pattern - Inverted Right-Angled Triangle: Ask for N. Print an inverted right-angled triangle.
-
-Q-192) Celsius to Fahrenheit Converter (Loop): Allow the user to convert temperatures repeatedly until they enter 'q' to quit.
-
-Q-193) Password Strength Checker (Basic): Check if a password is at least 8 characters long AND contains at least one digit.
-
-Q-194) Count Words Starting with 'A' (Case-Insensitive): Ask for a sentence and count how many words start with 'A'.
-
-Q-195) Find All Divisors of a Number: Ask for an integer and print all of its positive divisors.
-
-Q-196) Simple To-Do List (Add/View): Create a basic command-line program that allows a user to add a task to a list and view all tasks.
-
-Q-197) Simple Shopping Cart (Add/View Total): Create a program where a user can add items with prices to a cart and view the total cost.
-
-Q-198) Find Second Largest Number in List: Given a list of numbers, find and print the second largest number.
-
-Q-199) Remove Duplicates from List (Simple): Given a list with duplicates, create a new list with only the unique elements.
-
-Q-200) Check Anagrams (Basic): Ask for two words and check if they are anagrams.
-
-Q-201) Merge Two Sorted Lists: Given two sorted lists, merge them into a single new sorted list.
-
-Q-202) Convert Decimal to Binary (Simple): Ask for a non-negative decimal integer and print its binary representation.
-
-Q-203) Simple Bank Account: Create a program with deposit, withdraw, and getBalance functions to manage a single balance variable.
-
-Q-204) Character Frequency Counter: Ask for a string and use a map to count the frequency of each character.
-
-Q-205) Find Common Elements: Given two vectors, print the elements that exist in both. (Hint: std::set is very useful).
-
-Q-206) Rotate Vector: Write a function to rotate the elements of a vector to the left by one position.
-
-Q-207) Sum of Even/Odd Numbers in a List: Calculate the sum of all even numbers and the sum of all odd numbers in a list separately.
-
-Q-208) Capitalize Words: Ask for a sentence and print it with the first letter of each word capitalized.
-
-Q-209) Palindrome Number Check: Check if an integer is a palindrome (e.g., 121 reads the same forwards and backwards).
-
-Q-210) FizzBuzz: Print numbers from 1 to 100. For multiples of 3, print "Fizz". For multiples of 5, print "Buzz". For multiples of both, print "FizzBuzz".
-
-Q-211) Grade Average: Ask the user to enter 5 grades into a vector and calculate the average.
-
-Q-212) Simple Pig Latin: Ask for a word. Move the first letter to the end and add "ay". (e.g., "hello" -> "ellohay").
-
-Q-213) Find the Missing Number: Given a vector containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the sequence.
-
-Q-214) Basic Tic-Tac-Toe Board: Create and print a 3x3 2D array/vector to represent a Tic-Tac-Toe board.
-
-Q-215) Matrix Addition: Given two 2x2 matrices (2D vectors), calculate and print their sum.
-
-Q-216) Flatten a 2D Vector: Convert a 2D vector into a 1D vector.
-
-Q-217) Simple File I/O (Write): Write a short string to a file named output.txt.
-
-Q-218) Simple File I/O (Read): Read the content from output.txt and print it to the console.
-
-Q-219) Find the longest word: Ask the user for a sentence and find the longest word in it.
-
-Q-220) String Compression: Write a function that performs basic string compression. For example, "aabcccccaaa" would become "a2b1c5a3".
-
-Q-221) Check for balanced brackets in an expression: This is a more complex version of the parentheses checker, often involving mathematical operators inside.
-
-Q-222) Implement a simple Caesar cipher: Shift every letter in a string by a fixed number of places (e.g., 3).
-
-Q-223) Calculate the running median: As numbers are entered one by one, calculate and print the median of the list so far. (Hint: two priority queues can be very helpful).
-
-Q-224) Find all prime numbers up to N: Implement the Sieve of Eratosthenes algorithm.
-
-Q-225) Validate an IP Address: Given a string, determine if it's a valid IPv4 address.
-
-Q-226) Find the intersection of two arrays: Given two arrays, compute their intersection (elements common to both).
-
-Q-227) Maximum Subarray Sum (Kadane's Algorithm): Find the contiguous subarray within a one-dimensional array of numbers that has the largest sum.
-
-Q-228) Traverse a 2D array in spiral order: Given a matrix, print all of its elements in a spiral pattern.
-
-Q-229) Longest Palindromic Substring: Given a string, find the longest substring which is a palindrome.
-
-Q-230) Group Anagrams: Given an array of strings, group the anagrams together.
-
-Q-231) Product of Array Except Self: Given an array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
-
-Q-232) Container With Most Water: Given n non-negative integers representing vertical lines, find two lines that, together with the x-axis, form a container that holds the most water.
-
-Q-233) Search in a Rotated Sorted Array: A sorted array is rotated at some unknown pivot. Search for a target value.
-
-Q-234) Coin Change (Fewest Coins): Given a set of coin denominations and a total amount, find the minimum number of coins required to make up that amount.
-
-Q-235) Generate Permutations: Given a collection of distinct integers, return all possible permutations.
-
-Q-236) Word Break Problem: Given a string and a dictionary of words, determine if the string can be segmented into a space-separated sequence of one or more dictionary words.
+ 
+Level 13: Object-Oriented Programming (OOP) Fundamentals
+This level introduces the core principles of OOP, a critical paradigm for building scalable and maintainable software.
+
+Q-160) Class & Object: Define a Car class with public member variables for make, model, and year. Create an object (instance) of this class, assign values to its variables, and print them.
+
+Q-161) Member Function: Add a member function displayInfo() to the Car class that prints the car's details in a formatted way. Call this method from an object.
+Q-162) Multiple Objects: Create an array or vector of three different Car objects, each initialized with different data. Loop through the collection and call displayInfo() for each car.
+Q-163) Constructor: Add a parameterized constructor to the Car class that accepts the make, model, and year as arguments to initialize the object upon creation.
+Q-164) Default Constructor: Add a default (no-argument) constructor to the Car class that initializes the car to a "generic" state (e.g., make="TBD", model="TBD", year=0).
+Q-165) Encapsulation (Getters/Setters): Create a Student class with private attributes for name and grade. Provide public getter and setter methods for these attributes.
+Q-166) Data Validation in Setters: In the Student class's setGrade(int g) method, add logic to ensure the grade can only be set if it's between 0 and 100.
+Q-167) BankAccount Class: Design a BankAccount class with private attributes accountNumber and balance. Include public methods for deposit(amount), withdraw(amount), and checkBalance(). Ensure the balance cannot drop below zero.
+Q-168) this Pointer: In a method of the BankAccount class, use the this pointer to differentiate between a member variable and a local variable with the same name.
+Q-169) Static Member Variable: Add a static integer variable to your BankAccount class to count how many accounts have been created. Increment it in the constructor.
+Q-170) Static Member Function: Add a static function to the BankAccount class that returns the total number of accounts created.
+Q-171) Inheritance (Basic): Create a base class Animal with a public method eat(). Create a derived class Dog that inherits from Animal and has its own method, bark().
+Q-172) Method Overriding: In the Dog class, override the eat() method to print "The dog is eating." instead of the generic message from the Animal class.
+Q-173) Constructor Chaining: The Animal class has a name attribute initialized by its constructor. The Dog class constructor should take a name as an argument and pass it to the Animal base class constructor.
+Q-174) protected Members: Change the name attribute in Animal to protected. Show that it can be accessed directly within the Dog class but not from outside code (e.g., in main).
+Q-175) Polymorphism (Virtual Functions): Make the eat() method in the Animal class virtual. Create a pointer of type Animal* that points to a Dog object. Call the eat() method and observe that the Dog's version is executed.
+Q-176) Abstract Class & Pure Virtual Function: Create an abstract class Shape with a pure virtual function double calculateArea() = 0;.
+Q-177) Implementing an Abstract Class: Create Circle and Rectangle classes that inherit from Shape. Implement the calculateArea() function in both derived classes.
+Q-178) Polymorphism in Action: Create a vector of Shape* pointers and store the addresses of Circle and Rectangle objects. Loop through the vector, call calculateArea() on each element, and print the results.
+Q-179) Destructor: Add a destructor to the Car class that prints a message like "Car object for [model] is being destroyed."
+Q-180) Virtual Destructor: Explain why the base class destructor (e.g., in Shape or Animal) should be virtual. Modify your code to include it.
+
+Level 14: Linked Lists
+This level covers the theory and implementation of linked lists, a foundational dynamic data structure.
+
+Q-181) Singly Node Definition: Define the structure/class for a Node in a singly linked list (it should contain an integer data and a pointer next).
+Q-182) SLL Traversal: Manually create a simple linked list with 3 nodes. Write a function printList(Node* head) that traverses and prints the data of each node.
+Q-183) SLL Insertion at Head: Write a function insertAtHead(Node** head_ref, int new_data) that adds a new node to the beginning of the list.
+Q-184) SLL Insertion at Tail: Write a function insertAtTail(Node** head_ref, int new_data) that adds a new node to the end of the list.
+Q-185) SLL Insertion After a Node: Write a function insertAfter(Node* prev_node, int new_data) that inserts a new node after a given node.
+Q-186) SLL Deletion of a Key: Write a function deleteNode(Node** head_ref, int key) that finds and deletes the first node with the given key.
+Q-187) SLL Search for Element: Write a function search(Node* head, int key) that returns true if a key exists in the list and false otherwise.
+Q-188) SLL Get Nth Node: Write a function getNth(Node* head, int index) that returns the data of the node at a given zero-based index.
+Q-189) SLL Reverse the List: Write a function reverse(Node** head_ref) that reverses the linked list iteratively.
+Q-190) SLL Find Middle Element: Write a function to find the middle element of a linked list in a single pass (Hint: use two pointers).
+Q-191) SLL Detect Loop: Implement Floyd's Cycle-Finding Algorithm to detect if a loop exists in a linked list.
+Q-192) Doubly Node Definition: Define the structure for a Node in a doubly linked list (data, next pointer, prev pointer).
+Q-193) DLL Insertion at Head: Write a function to insert a new node at the beginning of a doubly linked list.
+Q-194) DLL Traversal (Forward & Backward): Write a function that traverses and prints a doubly linked list from head to tail, and then from tail to head.
+Q-195) DLL Deletion: Write a function to delete a node with a given key from a doubly linked list.
+
+Level 15: Stacks, Queues, and Hash Maps (Fundamentals)
+This level covers the implementation and core applications of these essential data structures.
+
+Q-196) Stack using Array: Implement a Stack class from scratch using a fixed-size array. Include push, pop, peek, isEmpty, and isFull methods.
+Q-197) Stack using Linked List: Implement a Stack class from scratch using a singly linked list.
+Q-198) Queue using Array: Implement a Queue class from scratch using a circular array. Include enqueue, dequeue, peek, isEmpty, and isFull methods.
+Q-199) Queue using Linked List: Implement a Queue class from scratch using a singly linked list.
+Q-200) Stack App: Parentheses Balancing: Use a stack (your own or std::stack) to check if a string of parentheses (), {}, [] is balanced.
+Q-201) Stack App: Infix to Postfix: Convert a simple infix expression (like a+b*c) to a postfix expression (abc*+).
+Q-202) Queue App: Generate Binary Numbers: Use a queue to generate and print the first N binary numbers.
+Q-203) Hash Map App: Character Frequency: Use a hash map (std::map or std::unordered_map) to count the frequency of each character in a given string.
+Q-204) Hash Map App: Find First Non-Repeating Character: Given a string, find its first non-repeating character using a hash map.
+Q-205) Hash Map App: Two Sum Problem: Given an array of integers and a target sum, determine if there are two numbers in the array that add up to the target. Use a hash map for an O(n) solution.
+Q-206) Set App: Find Duplicates: Given a vector of integers, use a set (std::set or std::unordered_set) to efficiently determine if it contains any duplicates.
+Q-207) Set App: Union of Two Arrays: Given two arrays, find their union (all unique elements from both) and store it in a new data structure.
+Q--208) Priority Queue App: Kth Largest Element: Find the Kth largest element in an unsorted array using a min-priority queue (std::priority_queue).
+Q-209) Priority Queue App: Kth Smallest Element: Find the Kth smallest element in an unsorted array using a max-priority queue.
+
+Level 16: Advanced STL Containers
+
+Q-210) std::set: Create a std::set of integers. Insert 10, 20, 5, 10. Print the elements to observe automatic sorting and duplicate handling.
+Q-211) Use set::find() to check if a number exists in a set.
+Q-212) What is the main difference in performance and ordering between std::set and std::unordered_set?
+Q-213) Create a std::set that stores integers in descending order.
+Q-214) std::map: Use a std::map to store the count of different fruits (string -> int). Add a few fruits and print the map.
+Q-215) Use map::find() to check if a key exists in a map.
+Q-216) Given a vector, use a map to count the frequency of each number.
+Q-217) What is the main difference in performance and ordering between std::map and std::unordered_map?
+Q-218) std::stack (LIFO): Use a std::stack to reverse a string.
+Q-219) Use a stack to check if a string of parentheses (), {}, [] is balanced. (Re-listed to be solved with STL).
+Q-220) std::queue (FIFO): Demonstrate a std::queue by adding (push) three numbers and then removing (pop) them, printing each one as it's removed.
+Q-221) std::priority_queue: Create a priority queue of integers and insert numbers in a random order. Print them as you pop them to see the default (max-heap) ordering.
+Q-222) How would you declare a priority_queue that functions as a min-heap?
+Q-223) std::pair and std::tuple: Create a std::pair to store a student's name (string) and grade (int). Print both elements.
+
+Level 17: Basic Sorting Algorithms & Modern C++
+
+Q-224) Bubble Sort: Implement Bubble Sort to sort a vector of integers.
+Q-225) Selection Sort: Implement Selection Sort for a vector.
+Q-226) Insertion Sort: Implement Insertion Sort for a vector.
+Q-227) Manually trace Bubble Sort on the array [5, 1, 4, 2, 8].
+Q-228) Manually trace Insertion Sort on the array [12, 11, 13, 5, 6].
+Q-229) Lambda Function: Declare a lambda function that takes two integers and returns their sum. Use auto to store it in a variable and then call it.
+Q-230) Use a lambda expression with std::sort to sort a vector of strings based on their length instead of alphabetical order.
+Q-231) Use a lambda to find the first even number in a vector using std::find_if.
+Q-232) Write a lambda that captures a local variable by reference [&] and modifies it.
+Q-233) Use the auto keyword to simplify iterating through a std::map.
+
+Level 18: Foundational Problem Solving
+This level focuses on applying fundamental programming concepts to build complete, logical solutions for common problems.
+
+Q-234) Simple Calculator (User Choice): Ask the user for two numbers and an operation ("add", "subtract", "multiply", or "divide"). Perform the chosen operation and print the result.
+Q-235) Generate Random Number: Write a program that generates and prints a random integer within a specific range (e.g., 1 to 100).
+Q-236) Guess the Number Game (Basic with hints): Generate a secret number. Let the user guess, and after each guess, tell them if their guess is too high, too low, or correct.
+Q-237) Guess the Number Game (Enhanced - Limited Guesses): Modify the previous game to give the user a limited number of guesses (e.g., 5).
+Q-238) Rock, Paper, Scissors (Single Round): Implement a single round of Rock, Paper, Scissors against the computer.
+Q-239) Print Pattern - Square of Asterisks: Ask the user for a number N. Print an NxN square using asterisks (*).
+Q-240) Print Pattern - Right-Angled Triangle: Ask for N. Print a right-angled triangle of asterisks.
+Q-241) Print Pattern - Inverted Right-Angled Triangle: Ask for N. Print an inverted right-angled triangle of asterisks.
+Q-242) FizzBuzz: Print numbers from 1 to 100. For multiples of 3, print "Fizz". For multiples of 5, print "Buzz". For multiples of both, print "FizzBuzz".
+Q-243) Find All Divisors of a Number: Ask for an integer and print all of its positive divisors.
+Q-244) Password Strength Checker (Basic): Check if a password is at least 8 characters long AND contains at least one digit.
+Q-245) Palindrome Number Check: Check if an integer is a palindrome (e.g., 121 reads the same forwards and backwards).
+Q-246) Check Anagrams (Basic): Ask for two words and check if they are anagrams (contain the same characters in different orders).
+Q-247) Grade Average: Ask the user to enter 5 grades into a vector and calculate the average.
+Q-248) Simple To-Do List (Add/View): Create a command-line program that allows a user to add a task to a list and view all tasks.
+Q-249) Simple Shopping Cart (Add/View Total): Create a program where a user can add items with prices to a cart and view the total cost.
+Q-250) Find Second Largest Number in List: Given a list of numbers, find and print the second largest number.
+Q-251) Remove Duplicates from List (Simple): Given a list with duplicates, create a new list with only the unique elements.
+Q-252) Merge Two Sorted Lists: Given two sorted lists, merge them into a single new sorted list.
+Q-253) Convert Decimal to Binary (Simple): Ask for a non-negative decimal integer and print its binary representation.
+Q-254) Find Common Elements in Two Lists: Given two vectors, print the elements that exist in both.
+Q-255) Rotate Vector: Write a function to rotate the elements of a vector to the left by one position.
+Q-256) Sum of Even/Odd Numbers in a List: Calculate the sum of all even numbers and all odd numbers in a list separately.
+Q-257) Capitalize Words: Ask for a sentence and print it with the first letter of each word capitalized.
+Q-258) Find the Longest Word: Ask the user for a sentence and find the longest word in it.
+Q-259) Simple Pig Latin: Ask for a word. Move the first letter to the end and add "ay" (e.g., "hello" -> "ellohay").
+Q-260) Basic Tic-Tac-Toe Board: Create and print a 3x3 2D array/vector to represent a Tic-Tac-Toe board.
+Q-261) Matrix Addition: Given two 2x2 matrices (2D vectors), calculate and print their sum.
+Q-262) Simple File I/O (Write): Write a short string to a file named output.txt.
+Q-263) Simple File I/O (Read): Read the content from output.txt and print it to the console.
+
+Level 19: Core Algorithms & Data Structure Applications
+This level involves more complex logic and often requires knowledge of specific, efficient algorithms to solve classic programming interview problems.
+
+Q-264) Find the Missing Number: Given a vector containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the sequence.
+Q-265) String Compression: Write a function that performs basic string compression. For example, "aabcccccaaa" would become "a2b1c5a3".
+Q-266) Check for Balanced Brackets in an Expression: This is a more complex version of the parentheses checker, often involving mathematical operators inside.
+Q-267) Implement a Simple Caesar Cipher: Shift every letter in a string by a fixed number of places (e.g., 3).
+Q-268) Sieve of Eratosthenes: Find all prime numbers up to N by implementing the Sieve of Eratosthenes algorithm.
+Q-269) Validate an IP Address: Given a string, determine if it's a valid IPv4 address.
+Q-270) Find the Intersection of Two Arrays: Given two arrays, compute their intersection (elements common to both) efficiently.
+Q-271) Flatten a 2D Vector: Convert a 2D vector into a 1D vector.
+Q-272) Group Anagrams: Given an array of strings, group the anagrams together.
+Q-273) Product of Array Except Self: Given an array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+Q-274) Maximum Subarray Sum (Kadane's Algorithm): Find the contiguous subarray within a one-dimensional array of numbers that has the largest sum.
+Q-275) Container With Most Water: Given n non-negative integers representing vertical lines, find two lines that, together with the x-axis, form a container that holds the most water.
+Q-276) Search in a Rotated Sorted Array: A sorted array is rotated at some unknown pivot. Search for a target value efficiently.
+Q-277) Longest Palindromic Substring: Given a string, find the longest substring which is a palindrome.
+Q-278) Traverse a 2D Array in Spiral Order: Given a matrix, print all of its elements in a spiral pattern.
+Q-279) Generate Permutations: Given a collection of distinct integers, return all possible permutations.
+Q-280) Calculate Running Median: As numbers are entered one by one, calculate and print the median of the list so far. (Hint: two priority queues are helpful).
+Q-281) Coin Change (Fewest Coins): Given a set of coin denominations and a total amount, find the minimum number of coins required to make up that amount.
+Q-282) Word Break Problem: Given a string and a dictionary of words, determine if the string can be segmented into a space-separated sequence of one or more dictionary words.
+
+Level 20: Introduction to Trees
+
+Q-283) Binary Tree Node: Define the class/structure for a TreeNode (e.g., with data, left child pointer, right child pointer).
+Q-284) Create a Simple Tree: Manually create a simple binary tree with at least 5 nodes.
+Q-285) Tree Traversal - In-order: Write a recursive function to perform an in-order traversal (Left, Root, Right) of a binary tree.
+Q-286) Tree Traversal - Pre-order: Write a recursive function to perform a pre-order traversal (Root, Left, Right).
+Q-287) Tree Traversal - Post-order: Write a recursive function to perform a post-order traversal (Left, Right, Root).
+Q-288) Binary Search Tree (BST) - Insert: Write a function to insert a value into a Binary Search Tree, maintaining the BST property.
+Q-289) Binary Search Tree (BST) - Search: Write a function to efficiently search for a value in a BST.
+Q-290) Find Height of Tree: Write a recursive function to find the height (or max depth) of a binary tree.
+Q-291) Find Minimum Value in BST: Write a function to find the minimum value in a BST without searching the entire tree.
+Q-292) Level Order Traversal: Print the nodes of a binary tree level by level using a queue.
+
+Level 21: Introduction to Graphs
+
+Q-293) Graph Representation - Adjacency Matrix: Represent a simple, unweighted, undirected graph with 5 vertices and 4 edges using an adjacency matrix.
+Q-294) Graph Representation - Adjacency List: Represent the same graph from the previous question using an adjacency list.
+Q-295) Graph Traversal - BFS: Implement Breadth-First Search (BFS) for a graph, starting from a given node. Use a queue.
+Q-296) Graph Traversal - DFS: Implement Depth-First Search (DFS) for a graph, starting from a given node. Use recursion or a stack.
+Q-297) Count Connected Components: Write a function that counts the number of disconnected components in a graph.
+Q-298) Detect Cycle in Undirected Graph: Write a function to determine if a cycle exists in an undirected graph.
+Q-299) Detect Cycle in Directed Graph: Write a function to determine if a cycle exists in a directed graph.
+Q-300) Shortest Path in Unweighted Graph: Find the shortest path between two nodes in an unweighted graph using BFS.

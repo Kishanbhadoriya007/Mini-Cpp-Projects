@@ -162,6 +162,8 @@ int main(){
 // }
 // cout<<d<<'\n';
 
+// 87)Sum of Digits: Ask the user for an integer and calculate the sum of its digits.
+
 // long long N, TempN, sum=0;
 // cout<<"Enter your number\n";
 // cin>>N;
